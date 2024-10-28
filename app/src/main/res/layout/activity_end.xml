@@ -1,0 +1,108 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Top Scores Section -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <TextView
+        android:id="@+id/TopScores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top Scores"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TopScoresList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:textSize="16sp" />
+
+    <!-- Total Players Section -->
+
+    <TextView
+        android:id="@+id/TotalPlayers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Players"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp" />
+
+    <TextView
+        android:id="@+id/TotalPlayersCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:textSize="20sp" />
+
+    <!-- Average Score Section -->
+
+    <TextView
+        android:id="@+id/AverageScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Average Score"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp" />
+
+    <TextView
+        android:id="@+id/AverageScoreValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:textSize="20sp" />
+
+    <!-- Highest Score Section -->
+
+    <TextView
+        android:id="@+id/HighestScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Highest Score"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp" />
+
+    <TextView
+        android:id="@+id/HighestScoreDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:textSize="18sp" />
+
+    <!-- Input for Specific Player Scores -->
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="23dp" />
+
+    <EditText
+        android:id="@+id/UsernamePlaintext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter username "
+        android:paddingTop="16dp" />
+
+    <Button
+        android:id="@+id/GetScoresBotton"
+        android:textSize="17sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Player Scores" />
+
+    <TextView
+        android:id="@+id/ScoresofUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:textSize="20sp" />
+</LinearLayout>
